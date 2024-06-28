@@ -1,0 +1,94 @@
+body{
+    background: rgb(205,255,216);
+    background: linear-gradient(90deg, rgba(205,255,216,1) 0%, rgba(148,185,255,1) 35%);
+}
+
+.Register-title{
+    margin-left: 100px;
+    color: rgb(90, 133, 172);
+    font-size: 50px;
+    padding: 50px 0px 50px 0px;
+}
+.Register-innerbox{
+    background-color: rgba(255, 255, 255, 0.727);
+    height: 700px;
+    width: 500px;
+    margin-left: 25%;
+    border-radius: 50px;
+    box-shadow: 2px 2px rgba(105, 103, 103, 0.727);
+}
+
+input{
+    margin: 20px 0px 45px 95px;
+    border-color: rgb(194, 206, 213);
+    border-radius: 10px;
+    display: block;
+    height: 35px;
+    width: 300px;
+}
+
+.Register-outerbox{
+    width: 50%;
+}
+.title-outerbox{
+    width: 50%;
+}
+
+.Register-button{
+    margin: 20px 0px 45px 170px;
+    display: inline-block;
+    outline: 0;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 9px 22px;
+    font-size: 22px;
+    height: 50px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    line-height: normal;
+    background: linear-gradient(90deg,#4e7997 0,#87c3c2 100%);
+    border-radius: 50px;
+    transition: color .2s ease,background-color .2s ease,box-shadow .2s ease;
+    :hover{
+        box-shadow: 0 0 0 0.15rem #5ceace;
+    }
+}
+.container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.join{
+    font-size: 30rem;
+    color: rgb(55, 85, 184);
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.now{
+    position: absolute;
+    left: 75px;
+    top: 70px;
+    z-index: 2;
+    font-size: 300px;
+    font-family: "Meie Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.box {
+    position: relative;
+}
+
+
+
+
+
